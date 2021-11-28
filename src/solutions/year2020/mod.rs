@@ -4,8 +4,7 @@ const YEAR: i32 = 2020;
 
 mod day01;
 mod day02;
-// mod day02;
-// mod day03;
+mod day03;
 // mod day04;
 // mod day05;
 // mod day06;
@@ -33,7 +32,7 @@ pub fn exec_day(day: i32) {
     match day {
         1 => day01::AoC {}.solve(YEAR, day),
         2 => day02::AoC {}.solve(YEAR, day),
-        //  3 => day03::AoC {}.solve(YEAR, day),
+        3 => day03::AoC {}.solve(YEAR, day),
         //  4 => day04::AoC {}.solve(YEAR, day),
         //  5 => day05::AoC {}.solve(YEAR, day),
         //  6 => day06::AoC {}.solve(YEAR, day),
