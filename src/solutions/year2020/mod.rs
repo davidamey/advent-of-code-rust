@@ -6,7 +6,7 @@ mod day01;
 mod day02;
 mod day03;
 mod day04;
-// mod day05;
+mod day05;
 // mod day06;
 // mod day07;
 // mod day08;
@@ -34,7 +34,7 @@ pub fn exec_day(day: i32) {
         2 => day02::AoC {}.solve(YEAR, day),
         3 => day03::AoC {}.solve(YEAR, day),
         4 => day04::AoC {}.solve(YEAR, day),
-        //  5 => day05::AoC {}.solve(YEAR, day),
+        5 => day05::AoC {}.solve(YEAR, day),
         //  6 => day06::AoC {}.solve(YEAR, day),
         //  7 => day07::AoC {}.solve(YEAR, day),
         //  8 => day08::AoC {}.solve(YEAR, day),
