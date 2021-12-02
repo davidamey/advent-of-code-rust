@@ -3,7 +3,7 @@ use crate::day::Day;
 const YEAR: i32 = 2021;
 
 mod day01;
-// mod day02;
+mod day02;
 // mod day03;
 // mod day04;
 // mod day05;
@@ -31,7 +31,7 @@ mod day01;
 pub fn exec_day(d: i32) {
     match d {
         1 => day01::AoC {}.solve(YEAR, d),
-        //  2 => day02::AoC {}.solve(YEAR, d),
+        2 => day02::AoC {}.solve(YEAR, d),
         //  3 => day03::AoC {}.solve(YEAR, d),
         //  4 => day04::AoC {}.solve(YEAR, d),
         //  5 => day05::AoC {}.solve(YEAR, d),
